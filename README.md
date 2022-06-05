@@ -12,4 +12,4 @@ In order to intall and get this plugin to work in your server, you'll first have
 ## In action
 These are a few images demostrating the plugin in action. You can also test it yourself by joining my minecraft server at `lagbug.me`
 
-![alt text]([https://i.imgur.com/6p4OeB1.gif](https://i.ibb.co/zh1sR4p/Screenshot-1.png))
+![alt text](https://i.ibb.co/zh1sR4p/Screenshot-1.png)
