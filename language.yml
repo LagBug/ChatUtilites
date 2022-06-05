@@ -1,0 +1,13 @@
+general:
+  noPermissions: "%prefix% You are not allowed to use this."
+  playersOnly: "%prefix% Only players are allowed to use this."
+  wrongUsage: "%prefix% The right usage is &e%usage%"
+  inCooldown: "%prefix% You are in the cooldown for another &e%remaining% &7seconds."
+  reloaded: "%prefix% The configuration files have been reloaded."
+
+spy:
+  format: "%prefix% %player% &7ran &e/%command%"
+  enabled: "%prefix% Successfully enabled spy mode."
+  alreadyEnabled: "%prefix% %player% &7already has spy mode enabled."
+  disabled: "%prefix% Successfully disabled spy mode."
+  alreadyDisabled: "%prefix% %player% &7already has spy mode disabled."

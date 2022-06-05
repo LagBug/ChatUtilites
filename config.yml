@@ -1,0 +1,22 @@
+prefix: "&7[&eChatUtils&7]"
+
+spy:
+  gui:
+    slots: 9
+    title: "Command Spy"
+    item:
+     slot: 4
+     enable:
+       material: "EMERALD_BLOCK"
+       name: "&aEnable"
+       lore:
+        - "&7Click here to enable"
+        - "&7command spy."
+     disable:
+       material: "REDSTONE_BLOCK"
+       name: "&cDisable"
+       lore:
+        - "&7Click here to disable"
+        - "&7command spy."
+  blacklisted:
+   - ""

@@ -1,0 +1,11 @@
+main: me.lagbug.chatutilities.ChatUtils
+version: 3.1
+name: ChatUtilities
+author: LagBug
+description: A complete utility plugin to control your chat and commands
+softdepend: [PlaceholderAPI]
+website: https://www.spigotmc.org/resources/49326/
+commands:
+  chatutils:
+   aliases: [cu, chatu, cutils]
+   description: The main command for this plugin

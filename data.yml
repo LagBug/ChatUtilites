@@ -1,0 +1,16 @@
+newCommands:
+  "hello":
+    permission: "cmd.hello"
+    sound: "LEVEL_UP"
+    actions:
+      - "playermsg &aHello! &7How are you doing?"
+      - "playsound LEVEL_UP"
+  "diamonds": #Same as above for everything else.
+    permission: "cmd.diamonds"
+    cooldown: 30
+    actions:
+     - "playermsg &bYeey! Free diamonds only for you!"
+     - "consolecmd give %player_name% diamond 1"
+
+replaceCommands:
+  - "punish;;ban"
