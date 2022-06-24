@@ -6,10 +6,10 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 
 import me.lagbug.chatutilities.ChatUtils;
+import me.lagbug.chatutilities.common.commands.SubCommand;
+import me.lagbug.chatutilities.common.utils.Utils;
 import me.lagbug.chatutilities.guis.SpyGui;
 import me.lagbug.chatutilities.utils.Permissions;
-import me.lagbug.common.commands.SubCommand;
-import me.lagbug.common.utils.Utils;
 
 public class CommandSpy extends SubCommand {
 
@@ -63,7 +63,6 @@ public class CommandSpy extends SubCommand {
 			return;
 		}
 
-		System.out.println("Aaa");
 		new SpyGui(player);
 	}
 

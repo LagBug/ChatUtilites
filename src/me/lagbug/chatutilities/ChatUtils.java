@@ -12,12 +12,12 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.lagbug.chatutilities.commands.ChatUtilsCommand;
+import me.lagbug.chatutilities.common.utils.FileUtils;
+import me.lagbug.chatutilities.common.utils.Metrics;
+import me.lagbug.chatutilities.common.utils.UpdateChecker;
+import me.lagbug.chatutilities.common.utils.Utils;
 import me.lagbug.chatutilities.events.InventoryClick;
 import me.lagbug.chatutilities.events.PlayerCommandPreProcess;
-import me.lagbug.common.utils.FileUtils;
-import me.lagbug.common.utils.Metrics;
-import me.lagbug.common.utils.UpdateChecker;
-import me.lagbug.common.utils.Utils;
 
 public class ChatUtils extends JavaPlugin {
 
@@ -78,7 +78,6 @@ public class ChatUtils extends JavaPlugin {
 	public FileConfiguration getDataFile() {
 		return dataFile;
 	}
-
 
 	public void saveConfigFile() {
 		fileUtils.saveConfigFile();

@@ -4,8 +4,8 @@ import org.bukkit.command.CommandSender;
 
 import me.lagbug.chatutilities.commands.subcommands.CommandSpy;
 import me.lagbug.chatutilities.commands.subcommands.Reload;
+import me.lagbug.chatutilities.common.commands.SpigotCommand;
 import me.lagbug.chatutilities.utils.Permissions;
-import me.lagbug.common.commands.SpigotCommand;
 
 public class ChatUtilsCommand extends SpigotCommand {
 	

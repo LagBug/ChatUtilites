@@ -1,4 +1,4 @@
-package me.lagbug.common.utils;
+package me.lagbug.chatutilities.common.utils;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;

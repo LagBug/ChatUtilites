@@ -1,4 +1,4 @@
-package me.lagbug.common.utils;
+package me.lagbug.chatutilities.common.utils;
 
 import java.awt.Color;
 import java.lang.reflect.Field;

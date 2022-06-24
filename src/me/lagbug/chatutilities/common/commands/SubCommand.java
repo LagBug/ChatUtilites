@@ -1,4 +1,4 @@
-package me.lagbug.common.commands;
+package me.lagbug.chatutilities.common.commands;
 
 import java.util.Arrays;
 import java.util.List;

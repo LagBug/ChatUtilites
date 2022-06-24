@@ -1,4 +1,4 @@
-package me.lagbug.common.builders;
+package me.lagbug.chatutilities.common.builders;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,7 @@ public class ItemBuilder {
 	private ItemStack item;
 	private ItemMeta meta;
 
+	@SuppressWarnings("deprecation")
 	public ItemBuilder(Material material, int amount, byte id) {
 		item = new ItemStack(material, amount, id);
 		meta = item.getItemMeta();
@@ -44,7 +45,7 @@ public class ItemBuilder {
 	}
 
 	public ItemBuilder setUnbreakable(boolean unbreakable) {
-		meta.spigot().setUnbreakable(unbreakable);
+		meta.setUnbreakable(unbreakable);
 		return this;
 	}
 
@@ -53,6 +54,7 @@ public class ItemBuilder {
 		return this;
 	}
 
+	@SuppressWarnings("deprecation")
 	public void setSkullOwner(String skullOwner) {
 		Material mat = Bukkit.getVersion().contains("v1_13_") ? Material.getMaterial("LEGACY_SKULL_ITEM") : Material.getMaterial("SKULL_ITEM");
 		item = new ItemStack(mat, item.getAmount(), (short) 3);

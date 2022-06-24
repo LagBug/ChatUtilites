@@ -3,9 +3,9 @@ package me.lagbug.chatutilities.commands.subcommands;
 import org.bukkit.command.CommandSender;
 
 import me.lagbug.chatutilities.ChatUtils;
+import me.lagbug.chatutilities.common.commands.SubCommand;
+import me.lagbug.chatutilities.common.utils.Utils;
 import me.lagbug.chatutilities.utils.Permissions;
-import me.lagbug.common.commands.SubCommand;
-import me.lagbug.common.utils.Utils;
 
 public class Reload extends SubCommand {
 	

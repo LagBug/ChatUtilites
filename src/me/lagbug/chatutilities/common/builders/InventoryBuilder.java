@@ -1,4 +1,4 @@
-package me.lagbug.common.builders;
+package me.lagbug.chatutilities.common.builders;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package me.lagbug.common.commands;
+package me.lagbug.chatutilities.common.commands;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 import me.lagbug.chatutilities.ChatUtils;
-import me.lagbug.common.utils.Utils;
+import me.lagbug.chatutilities.common.utils.Utils;
 
 public abstract class SpigotCommand implements CommandExecutor {
 	

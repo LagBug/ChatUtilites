@@ -1,4 +1,4 @@
-package me.lagbug.common.utils;
+package me.lagbug.chatutilities.common.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -43,25 +43,17 @@ public class UpdateChecker {
 		new BukkitRunnable() {
 			@Override
 			public void run() {
-				String message = "";
 				switch (getResult()) {
-				case ERROR:
-					message = " --> Failed to check for updates.";
-					break;
 				case FOUND:
-					message = " --> Found a new update! Download it using " + "https://www.spigotmc.org/resources/" + projectID + "/";
+					cs.sendMessage("--------------------------------------------------");
+					cs.sendMessage(" --> " + plugin.getDescription().getName() + " update result:");
+					cs.sendMessage(" --> Found a new update! Download it using " + "https://www.spigotmc.org/resources/" + projectID + "/");
+					cs.sendMessage("--------------------------------------------------");
 					break;
-				case NOT_FOUND:
-					message = " --> No updates were found, you are using the latest version.";
-					break;
-				case DEVELOPMENT:
-					message = " --> You are running a development build, this might not be stable.";
+				default:
 					break;
 				}
-				cs.sendMessage("--------------------------------------------------");
-				cs.sendMessage(" --> " + plugin.getDescription().getName() + " update result:");
-				cs.sendMessage(message);
-				cs.sendMessage("--------------------------------------------------");
+
 			}
 		}.runTaskTimerAsynchronously(plugin, 0, delay * 1200);
 	}

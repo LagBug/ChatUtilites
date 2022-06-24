@@ -12,7 +12,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
 import me.lagbug.chatutilities.ChatUtils;
-import me.lagbug.common.utils.Utils;
+import me.lagbug.chatutilities.common.utils.Utils;
 
 public class InventoryClick implements Listener {
 	
@@ -48,7 +48,7 @@ public class InventoryClick implements Listener {
     }
     
 	private String getInventoryName(InventoryClickEvent e) {
-		if (Bukkit.getVersion().contains("1.14") || Bukkit.getVersion().contains("1.15") || Bukkit.getVersion().contains("1.16")) {
+		if (Bukkit.getVersion().contains("1.14") || Bukkit.getVersion().contains("1.15") || Bukkit.getVersion().contains("1.16") || Bukkit.getVersion().contains("1.17") || Bukkit.getVersion().contains("1.18") || Bukkit.getVersion().contains("1.19")) {
 			return e.getView().getTitle();
 		} else {
 			try {

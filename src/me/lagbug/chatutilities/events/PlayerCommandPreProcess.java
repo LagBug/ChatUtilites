@@ -10,9 +10,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
 import me.lagbug.chatutilities.ChatUtils;
+import me.lagbug.chatutilities.common.utils.ActionUtil;
+import me.lagbug.chatutilities.common.utils.Utils;
 import me.lagbug.chatutilities.utils.Permissions;
-import me.lagbug.common.utils.ActionUtil;
-import me.lagbug.common.utils.Utils;
 
 public class PlayerCommandPreProcess implements Listener {
 
